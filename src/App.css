@@ -1,0 +1,31 @@
+body {
+  background-color: tomato
+}
+
+
+.countdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  margin-top: 20%;
+
+}
+
+#timeCount {
+  text-align: center;
+  border: 3px solid forestgreen;
+  padding: 10px;
+  outline: none;
+}
+
+#timeCount:focus {
+  outline: none;
+  caret-color: red;
+}
+
+#current-time {
+  text-align: center;
+  color: #fff;
+  margin-top: 20px;
+}
